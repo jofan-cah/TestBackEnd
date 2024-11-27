@@ -170,3 +170,10 @@ Jika Anda mengalami masalah atau membutuhkan kustomisasi lebih lanjut, Anda dapa
 - **JWT-Auth:** [https://github.com/tymondesigns/jwt-auth](https://github.com/tymondesigns/jwt-auth)
 - **Swagger:** [https://github.com/DarkaOnLine/L5-Swagger](https://github.com/DarkaOnLine/L5-Swagger)
 - **PHPUnit:** [https://phpunit.de/manual/current/en/](https://phpunit.de/manual/current/en/)
+
+## 9. Test 
+
+File Test Berada di file dengan nama test_result.txt
+
+- test_result.txt
+

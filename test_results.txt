@@ -1,0 +1,48 @@
+
+   WARN  Metadata found in doc-comment for method Tests\Feature\Api\CompanyControllerTest::test_super_admin_can_create_company(). Metadata in doc-comments is deprecated and will no longer be supported in PHPUnit 12. Update your test code to use attributes instead.
+
+   WARN  Metadata found in doc-comment for method Tests\Feature\Api\CompanyControllerTest::non_super_admin_cannot_create_company(). Metadata in doc-comments is deprecated and will no longer be supported in PHPUnit 12. Update your test code to use attributes instead.
+
+   WARN  Metadata found in doc-comment for method Tests\Feature\Api\CompanyControllerTest::can_update_company_as_super_admin(). Metadata in doc-comments is deprecated and will no longer be supported in PHPUnit 12. Update your test code to use attributes instead.
+
+   WARN  Metadata found in doc-comment for method Tests\Feature\Api\CompanyControllerTest::can_delete_company_as_super_admin(). Metadata in doc-comments is deprecated and will no longer be supported in PHPUnit 12. Update your test code to use attributes instead.
+
+   WARN  Metadata found in doc-comment for method Tests\Feature\Api\EmployeeControllerTest::test_employee_can_view_fellow_employees(). Metadata in doc-comments is deprecated and will no longer be supported in PHPUnit 12. Update your test code to use attributes instead.
+
+   PASS  Tests\Unit\ExampleTest
+  ✓ that true is true                                                                                                                                                                            0.01s  
+
+   PASS  Tests\Feature\Api\AuthControllerTest
+  ✓ user registration                                                                                                                                                                            1.30s  
+  ✓ user login                                                                                                                                                                                   0.13s  
+  ✓ user login wrong email                                                                                                                                                                       0.27s  
+  ✓ user login wrong password                                                                                                                                                                    0.31s  
+  ✓ user login missing credentials                                                                                                                                                               0.06s  
+  ✓ user login empty password                                                                                                                                                                    0.08s  
+
+   PASS  Tests\Feature\Api\CompanyControllerTest
+  ✓ super admin can create company                                                                                                                                                               0.08s  
+  ✓ non super admin cannot create company                                                                                                                                                        0.06s  
+  ✓ can update company as super admin                                                                                                                                                            0.07s  
+  ✓ can delete company as super admin                                                                                                                                                            0.07s  
+  ✓ list companies                                                                                                                                                                               0.07s  
+  ✓ show company                                                                                                                                                                                 0.06s  
+  ✓ update company                                                                                                                                                                               0.08s  
+
+   PASS  Tests\Feature\Api\EmployeeControllerTest
+  ✓ employee can view fellow employees                                                                                                                                                           0.11s  
+  ✓ employee can view fellow employee details                                                                                                                                                    0.10s  
+  ✓ employee cannot view fellow employee from other company                                                                                                                                      0.11s  
+
+   PASS  Tests\Feature\Api\ManagerControllerTest
+  ✓ manager can view managers                                                                                                                                                                    0.08s  
+  ✓ manager can view employees                                                                                                                                                                   0.06s  
+  ✓ manager can view employee details                                                                                                                                                            0.06s  
+  ✓ manager can create employee                                                                                                                                                                  0.06s  
+  ✓ manager can update employee                                                                                                                                                                  0.07s  
+  ✓ manager can delete employee                                                                                                                                                                  0.06s  
+  ✓ manager can update own info                                                                                                                                                                  0.06s  
+
+  Tests:    24 passed (70 assertions)
+  Duration: 3.70s
+
